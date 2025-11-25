@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-header {
+            text-align: center;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .profile-header h1 {
+            margin: 10px 0 5px;
+        }
+        .profile-header p {
+            color: #777;
+        }
+        .profile-details {
+            margin-top: 20px;
+        }
+        .profile-details h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .profile-details p {
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture">
+            <h1>John Doe</h1>
+            <p>Web Developer | Designer | Content Creator</p>
+        </div>
+
+        <div class="profile-details">
+            <h2>About Me</h2>
+            <p>Hello! I'm John Doe, a passionate web developer with over 5 years of experience in creating beautiful and functional websites. I specialize in front-end development and have a keen eye for design.</p>
+            
+            <h2>Skills</h2>
+            <p>HTML, CSS, JavaScript, React, Node.js, Photoshop, Illustrator</p>
+            
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:john@example.com">john@example.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+            <p>GitHub: <a href="https://github.com/johndoe" target="_blank">github.com/johndoe</a></p>
+            
+            <h2>Projects</h2>
+            <p>Check out my latest work and portfolio projects on my <a href="#">portfolio page</a>.</p>
+        </div>
+    </div>
 </body>
 </html>
